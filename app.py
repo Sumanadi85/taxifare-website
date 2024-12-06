@@ -3,6 +3,11 @@ import streamlit as st
 '''
 # TaxiFareModel front
 '''
+st.write('Welcome to my app')
+
+title = st.text_input('Movie title', 'Life of Brian')
+
+st.write('The current movie title is', title)
 
 st.markdown('''
 Remember that there are several ways to output content into your web page...
